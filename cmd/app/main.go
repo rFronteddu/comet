@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/rFronteddu/comet/internal/version"
+)
 
 func main() {
-	fmt.Println("hello from app")
+	fmt.Println(version.Banner())
 }
